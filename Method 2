@@ -1,0 +1,10 @@
+def length(str):
+    i = 0
+    while str != "":
+        i += 1
+        str = str[1:]
+    return i
+
+
+str = "PrepInsta"
+print("length of", str, "is", length(str))
